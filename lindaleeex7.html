@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Linda Lee's DES117 Portal</title>
+
+
+	<style>
+		body {
+			font-family: Ariel, sans-serif;
+			align-content: center;
+		}
+
+		/*This is the page container div where you declare CSS grid display
+ 		and set up how many columns and rows are needed for the overall page.
+ 		fr is a fractional, scalable unit for relative portions of the page,
+		but you can use other units like pixels too*/
+
+		.container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows: .2fr 1.6fr .2fr;
+			max-width: 80vw;
+			margin: auto;
+		}
+
+		/*Here the header "item" is set to row 1 and set to span column lines 1-5, ie.
+		all 4 columns that were set up in the container*/
+
+		header {
+			grid-row: 1;
+			grid-column: 1 / 4;
+			background-color: lightpink;
+			padding-left: 3rem;
+			padding-bottom: 1rem;
+		}
+
+
+		h1 {
+			font-size: 2em;
+		}
+
+		h2 {
+			font-size: 1em;
+		}
+
+		/*The aside item is set to grid row 2 and set to span just from column lines 1 to 2*/
+
+		aside {
+			min-height: 50vh;
+			background-color: lightblue;
+			grid-row: 2;
+			grid-column: 1 / 2;
+		}
+
+		/*This section item is set to grid row 2 and set to span  from column lines 2 to 5*/
+
+		.s1 {
+			background-color:lightyellow;
+			grid-row: 2;
+			grid-column: 2/ 3;
+		}
+
+		.s2 {
+			background-color:orange;
+			grid-row: 2;
+			grid-column: 3 / 4;
+		}
+
+		/*The footer item is set to row 3 and set to span column lines 1-5, ie.
+		all 4 columns that were set for the container*/
+
+		footer {
+			background-color: lightgreen;
+			grid-row: 3;
+			grid-column: 1 / 4;
+			text-align: center;
+			padding: 2rem;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Linda Lee's DES117 Portal</h1>
+			<h2>My name is Linda Lee. I hope everyone can enjoy my portal page! Thank you for visiting!</h2>
+		</header>
+
+		<aside>
+	    <h2>Exercise</h2>
+	     <p>Excercises are activities that I did weekly throughout the quarter. Excercises can be considered as a fundamental process that allow my coding skills to grow. Below, there are total 7 exercises that I completed throughout the quarter. Click and see my growth in HTML:<br>
+	          <ol>
+	          <li><a href="./exercise1.html">Exercise #1</a></li>
+	          <li><a href="#">Exercise #2</a>
+	            <ol>
+	              <li><a href="./exercise2-1.html">Exercise #2-1</a></li>
+	              <li><a href="./exercise2-2.html">Exercise #2-2</a></li>
+	              <li><a href="./exercise2-3.html">Exercise #2-3</a></li>
+	            </ol>
+	            </li>
+	          <li><a href="./exercise3.html">Exercise #3</a></li>
+	          <li><a href="./exercise4.html">Exercise #4</a></li>
+	          <li><a href="./exercise5.html">Exercise #5</a></li>
+	          <li><a href="#">Exercise #6</a></li>
+	          <li><a href="#">Exercise #7</a></li>
+	        </ol>
+		    </aside>
+	<section class="s1">
+					<h2>Projects</h2>
+ 				 <p>There are three different types of projects that I did throughout the quarter:<br>
+ 				 <ol>
+ 				 <li><a href="#">Portal Page</a></li>
+ 				 <li><a href="#">Blog Page</a></li>
+ 				 <li><a href="#">Portfolio Website</a></li>
+ 			 </ol>
+</section>
+
+				<section class="s2">
+				 <h2>Projects</h2>
+				 <p>There are three different types of projects that I did throughout the quarter:<br>
+				 <ol>
+				 <li><a href="#">Portal Page</a></li>
+				 <li><a href="#">Blog Page</a></li>
+				 <li><a href="#">Portfolio Website</a></li>
+			 </ol>
+			 </section>
+
+		<section>
+		</section>
+
+		<footer>
+			<p>Linda Lee</p>
+		 <p>Contact:<a
+			 href="mailto:&#107;&#117;&#101;&#101;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#107;&#117;&#101;&#101;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
+		</footer>
+
+	</div>
+</body>
+
+</html>
