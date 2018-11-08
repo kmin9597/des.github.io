@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>MobileBlogTemplate</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="pagecontainer">
+    <header>
+      <h1>Things to Remember to Make Successful Web Design for Civic and Social Responsibility</h1>
+    </header>
+
+    <article>
+      <h2>1. Priority should be civic and social responsibility</h2>
+      <p>When people come to website, it is important to have separate tab for civic and social responsibility. When people click the tab, the company for group should inform the definition of civic and social responsibility and what they believe in or go after for civic and social responsibility.
+      </p>
+    </article>
+
+    <article>
+      <h2>2. Inform people the importance of social responsibility and they are responsible</h2>
+      <p>If you are addressing any information that relates to civic and social responsibility, it is important to relate those information or story to audience. People’s willingness grow when they realize the seriousness and significance of the problem. This way, people can face the issue and feel responsible towards it. It is important for company to encourage people and tell that they can make opportunity to make the world better and safer place to live.
+      </p>
+    </article>
+
+    <article>
+      <h2>3. Make every page to allow people to have the Call To Action!</h2>
+        <p>It is significant to have people’s engagement in this kind of activity. In order to have people’s engagement, there are things to provide in the website.</p>
+        <ol>
+          <li>Ask Question: By asking question, company can know and realize what people are curious about and grow new perspectives in social responsibility that they did not see before.</li>
+
+          <li>Ask for volunteer: Civic and social responsibility is not only for company for individuals, it is important for individuals to participate in social responsibility actions and realizing that their acts can definitely make huge impact in the society.</li>
+
+          <li>Provide Data for Civic and Social Responsibility: By adding data or chart for the social responsibility that company is going for and working on can grow customers or audience’s trust for the company and allow people to engage what company is looking forward to.</li>
+        </ol>
+    </article>
+
+    <article>
+      <h2>4. Stay Authentic</h2>
+      <p>Be Honest! In that way, people can build trust and feel more responsible!</p>
+    </article>
+
+    <article>
+      <h2>Starbucks Example</h2>
+      <p>Example of a company who did successful job on representing their social responsibility</p>
+          <img src="https://foodelicious2016.files.wordpress.com/2016/02/community-service-home-page-starbucks-copy.jpg" alt="Social Responsibility in Starbucks">
+      <p>“In 2008, we set our first multi-year goals for community involvement, ethical sourcing, and environmental impact. Help us determine where to focus our efforts going forward. Where can we go together? Send us your input at globalresponsibility@starbucks.com”.</p>
+    </article>
+
+  </div>
+</body>
+
+</html>
