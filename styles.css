@@ -1,84 +1,206 @@
-
-/*Sets the width of the overall page container div
-to 90% of viewport width and margin:auto centers the page
-in the middle of the browser no matter how wide you stretch the browser*/
-.pagecontainer {
-  margin: auto;
-  width: 90vw;
-  background: lightyellow;
-}
-
-header {
-  background: linear-gradient(to right, lightblue, #D0F2EA, white);
-  padding: 2rem;
-  text-align: center;
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size:3rem;
-}
-
-h2 {
-  font-family: 'Noto Sans', sans-serif;
-}
-
-h3 {
-  font-family: 'Chivo', sans-serif;
+* {
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'KoHo', sans-serif;
+    background-color: #8093BB;
+    padding: 0;
+    font-family: Arial;
 }
 
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 50%;
+/* Center website */
+.main {
+    max-width: 100%;
+    margin: auto;
 }
-
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
+.head {
+  background-image: url(https://image.freepik.com/free-vector/dark-blue-vector-blurry-triangle-background-design_6869-1026.jpg);
+  padding: 10%;
+  background-size: 100%;
 }
-/*Sets background color of nav list elements and their width and height*/
-nav ul li {
-  background: #A6DAED;
-  height: 2rem;
-  width: 36rem;
-  padding-top: 1rem;
-  border-color: lightyellow;
-  border: 4px solid lightyellow;
-  border-width: 1px;
-  text-align: center;
-}
-/*Takes away the default underlining of links and sets color of menu font*/
-nav ul li a {
-  text-decoration: none;
-  font-size: 1.2em;
-  color: black;
-}
-/*Active psuedoclass is used so When you click on a menu item it turns orange.*/
-nav ul li:active {
-  background: #D0F2EA;
-}
-/*This class should be applied to html differently on each page to let user know
-which page you are on--in this case the home page*/
-.locationmarker {
-  background: #82C1D8;
-}
-
-article {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 footer {
-  background: linear-gradient(to right, lightblue, #D0F2EA, white);
-  padding: 2rem;
+    background-image: url(https://image.freepik.com/free-vector/dark-blue-vector-blurry-triangle-background-design_6869-1026.jpg);
+    padding: 3%;
+    background-size: 100%;
+    font-family: 'Cookie', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px darkgrey, 0 0 5px grey;
+}
+
+h1 {
+    font-family: 'Cookie', sans-serif;
+    font-size:90px;
+    word-break: break-all;
+    text-align: center;
+    color: white;
+    margin: 0;
+    text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px white;
+}
+h2 {
+  font-family: 'Cookie', sans-serif;
+  color: black;
   text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 2%;
+}
+h2 a {
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 0.8em;
+  color: black;
+  font-family: 'Cormorant Upright', sans-serif;
+  background-color:#E8E9EC;
+}
+
+.column p {
+  vertical-align: middle;
+  align-content: center;
+  text-align: center;
+  font-family: 'Marmelad', sans-serif;
+  color: black;
+  padding-top: 30%;
+}
+p {  vertical-align: middle;
+  align-content: center;
+  text-align: center;
+  font-family: 'Marmelad', sans-serif;
+  color: white;
+}
+.row {
+    width: 100%;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 0;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content1 {
+    background-color: #21335A;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.content2 {
+    background-color:#E8E9EC;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.content3 {
+    background-color: #E8E9EC;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+.content4 {
+    background-color: #21335A;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+.content5 {
+    background-color:#21335A ;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+
+}.content6 {
+    background-color:#E8E9EC ;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+
+}.content7 {
+    background-color:#E8E9EC;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+
+}.content8 {
+    background-color: #21335A;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+
+}.content9 {
+    background-color:#21335A;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+
+}.content10 {
+    background-color:#E8E9EC;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+
+}.content11 {
+    background-color:#E8E9EC;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+
+}.content12 {
+    background-color: #21335A;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+
+
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
+    p {
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    font-family: 'Marmelad', sans-serif;
+    color: black;
+    height: 100%;
+}
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a:link {
+color: white;
 }
